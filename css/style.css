@@ -34,3 +34,8 @@ body {
   text-align: right;
   margin-right: 200px;
 }
+
+#register-only {
+  color: darkorange;
+  font-size: 12px;
+}
