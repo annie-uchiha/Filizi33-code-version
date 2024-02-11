@@ -63,8 +63,70 @@ body {
   text-decoration: none;
 }
 
-
-#first-image-kafka img{
+#first-image-kafka img {
   padding-left: 1400px;
   height: 460px;
+}
+
+#title-of-course {
+  color: rgb(233, 81, 11);
+  padding-left: 1100px;
+  transform: translateY(-400px);
+}
+
+#subtitle-of-course {
+  color: rgb(197, 130, 6);
+  padding-left: 1135px;
+  transform: translateY(-400px);
+}
+
+.author-and-voiceover {
+  color: rgb(233, 81, 11);
+  text-align: center;
+  padding-right: 320px;
+  transform: translateY(-350px);
+}
+
+#second-image-kafka img {
+  height: 500px;
+  padding-left: 620px;
+  transform: translateY(-450px);
+}
+
+.information {
+  color: rgb(197, 130, 6);
+  font-size: 25px;
+}
+
+#basic-info {
+  padding-left: 1200px;
+  transform: translateY(-230px);
+}
+
+#program-of-course {
+  padding-left: 1000px;
+  transform: translateY(-50px);
+}
+
+#faq {
+  padding-left: 1400px;
+}
+
+#third-image-kafka img {
+  height: 400px;
+  padding-left: 1100px;
+  transform: translateY(-500px);
+}
+
+.cost {
+  color: red;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 800px;
+  transform: translateY(-800px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
