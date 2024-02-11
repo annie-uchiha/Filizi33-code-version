@@ -87,6 +87,7 @@ body {
 .second-image-container {
   text-align: left;
   padding-left: 800px;
+  transform: translateY(-500px)
 }
 
 .second-image-container img {
@@ -101,4 +102,9 @@ body {
 .course-name {
   color: rgb(184, 62, 25);
   font-size: 30px;
+  transform: translateY(-450px)
+}
+
+.first-course-p{
+  transform: translateY(-450px);
 }
