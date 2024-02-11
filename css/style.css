@@ -32,7 +32,7 @@ body {
 
 .member-area {
   text-align: right;
-  margin-right: 200px;
+  margin-right: 850px;
 }
 
 #register-only {
@@ -107,4 +107,23 @@ body {
 
 .first-course-p{
   transform: translateY(-450px);
+}
+
+.third-image-container img {
+  height: 400px;
+}
+
+#third-image-container{
+  padding-left: 1150px;
+  transform: translateY(-800px);
+}
+
+#second-course {
+  padding-left: 1330px;
+  transform: translateY(-800px)
+}
+
+#third-course {
+  padding-left: 1500px;
+  transform: translateY(-550px)
 }
