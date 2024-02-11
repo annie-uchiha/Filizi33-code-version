@@ -87,7 +87,7 @@ body {
 .second-image-container {
   text-align: left;
   padding-left: 800px;
-  transform: translateY(-500px)
+  transform: translateY(-500px);
 }
 
 .second-image-container img {
@@ -102,10 +102,10 @@ body {
 .course-name {
   color: rgb(184, 62, 25);
   font-size: 30px;
-  transform: translateY(-450px)
+  transform: translateY(-450px);
 }
 
-.first-course-p{
+.first-course-p {
   transform: translateY(-450px);
 }
 
@@ -113,17 +113,59 @@ body {
   height: 400px;
 }
 
-#third-image-container{
+#third-image-container {
   padding-left: 1150px;
   transform: translateY(-800px);
 }
 
 #second-course {
   padding-left: 1330px;
-  transform: translateY(-800px)
+  transform: translateY(-800px);
 }
 
 #third-course {
   padding-left: 1500px;
-  transform: translateY(-550px)
+  transform: translateY(-550px);
+}
+
+.footer-logo-contact-info {
+  display: inline-block;
+  transform: translateX(300px);
+}
+
+.footer-logo-contact-info img {
+  width: 100px;
+  height: 100px;
+}
+
+#social-media-buttons {
+  transform: translateX(365px);
+}
+
+#social-media-buttons li {
+  display: inline-block;
+  color: #474343;
+  font-size: 30px;
+}
+
+#about-me {
+  text-align: center;
+  transform: translateY(-120px);
+}
+
+#movies {
+  text-align: center;
+  transform: translateY(-90px);
+}
+
+#books-and-albums {
+  text-align: right;
+  padding-right: 1000px;
+  transform: translateY(-108px);
+}
+
+.terms-and-conditions {
+  text-align: center;
+  font-size: 10px;
+  transform: translateY(-70px);
 }
