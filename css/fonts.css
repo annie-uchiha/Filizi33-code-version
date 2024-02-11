@@ -1,16 +1,21 @@
-.font-family{
-    "Comic Neue", cursive;
-} 
+font-family: "Merienda", cursive;
 
 .font-size-12 {
-    font-size: 12px;
-  }
-  
-  .font-weight-regular {
-    font-weight: 400;
-  }
-  
-  
-  .font-weight-bold {
-    font-weight: 700;
-  }
+  font-size: 12px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
