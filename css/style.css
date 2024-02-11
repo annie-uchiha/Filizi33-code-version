@@ -115,6 +115,7 @@ body {
 
 #third-image-container {
   padding-left: 1150px;
+  position: absolute;
   transform: translateY(-800px);
 }
 
@@ -168,4 +169,21 @@ body {
   text-align: center;
   font-size: 10px;
   transform: translateY(-70px);
+}
+
+.subscribe-form {
+  display: inline-block;
+}
+
+.subscribe-form input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.subscribe-form button {
+  padding:10px;
+  background-color: #474343;
+  border: 1px solid black;
+  cursor: pointer;
 }
