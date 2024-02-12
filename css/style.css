@@ -131,6 +131,7 @@ body {
 
 footer {
   background-color: #1b1919;
+  background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
 .footer-logo-contact-info {
@@ -142,7 +143,7 @@ footer {
   width: 100px;
   height: 100px;
   padding-right: 15px;
-  padding-top: 9px;
+  padding-top: 19px;
 }
 
 #social-media-buttons {
@@ -157,7 +158,7 @@ footer {
 
 #about-me {
   text-align: center;
-  transform: translateY(-120px);
+  transform: translateY(-140px);
   font-size: 22px;
 }
 
@@ -168,27 +169,36 @@ footer {
 
 #movies {
   text-align: center;
-  transform: translateY(-90px);
+  padding-right: 300px;
+  transform: translateY(-40px);
   font-size: 22px;
 }
 
 #books-and-albums {
   text-align: right;
-  padding-right: 900px;
-  transform: translateY(-119px);
+  padding-right: 1050px;
+  transform: translateY(-85px);
   font-size: 22px;
+}
+
+#between-movies-and-terms {
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
 .terms-and-conditions {
   text-align: center;
   font-size: 10px;
-  transform: translateY(-20px);
   padding-top: 5px;
   font-size: 12px;
 }
 
+#subscribe {
+  transform: translateX(1630px);
+}
+
 .subscribe-form {
   display: inline-block;
+  transform: translateX(1500px);
 }
 
 .subscribe-form input {
