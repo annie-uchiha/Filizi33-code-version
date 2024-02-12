@@ -129,6 +129,10 @@ body {
   transform: translateY(-550px);
 }
 
+footer {
+  background-color: #1b1919;
+}
+
 .footer-logo-contact-info {
   display: inline-block;
   transform: translateX(300px);
@@ -137,10 +141,12 @@ body {
 .footer-logo-contact-info img {
   width: 100px;
   height: 100px;
+  padding-right: 15px;
+  padding-top: 9px;
 }
 
 #social-media-buttons {
-  transform: translateX(365px);
+  transform: translateX(385px);
 }
 
 #social-media-buttons li {
@@ -152,23 +158,33 @@ body {
 #about-me {
   text-align: center;
   transform: translateY(-120px);
+  font-size: 22px;
+}
+
+#between-about-and-movies {
+  transform: translateY(-100px);
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
 #movies {
   text-align: center;
   transform: translateY(-90px);
+  font-size: 22px;
 }
 
 #books-and-albums {
   text-align: right;
-  padding-right: 1000px;
-  transform: translateY(-108px);
+  padding-right: 900px;
+  transform: translateY(-119px);
+  font-size: 22px;
 }
 
 .terms-and-conditions {
   text-align: center;
   font-size: 10px;
-  transform: translateY(-70px);
+  transform: translateY(-20px);
+  padding-top: 5px;
+  font-size: 12px;
 }
 
 .subscribe-form {
@@ -183,7 +199,7 @@ body {
 
 .subscribe-form button {
   padding: 10px;
-  background-color: #474343;
+  background-color: #807c7c;
   border: 1px solid black;
   cursor: pointer;
 }
@@ -191,4 +207,9 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#all-rights-reserved {
+  transform: translateX(-1100px);
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
