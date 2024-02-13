@@ -1,21 +1,23 @@
 body {
   background-color: #111;
   color: rgb(193, 194, 197);
-  font-family: "Comic-Neue", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 16px;
 }
 
 .logo-container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .logo-h1 {
   text-align: left;
+  font-size: 22px;
 }
 
 .logo-h2 {
   font-weight: 400;
+  font-size: 20px;
 }
 
 .top-page-area {
@@ -52,7 +54,8 @@ body {
 
 #main-navigation li {
   display: inline-block;
-  padding: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
@@ -62,7 +65,6 @@ body {
   color: rgb(193, 194, 197);
   text-decoration: none;
 }
-
 #first-image-bruegel img {
   padding-left: 1400px;
   height: 460px;
