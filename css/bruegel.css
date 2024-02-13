@@ -65,21 +65,25 @@ body {
   color: rgb(193, 194, 197);
   text-decoration: none;
 }
+
 #first-image-bruegel img {
-  padding-left: 1400px;
-  height: 460px;
+  padding-top: 30px;
+  padding-left: 1300px;
+  height: 400px;
 }
 
 #title-of-course {
   color: rgb(233, 81, 11);
   padding-left: 1100px;
   transform: translateY(-400px);
+  font-size: 25px;
 }
 
 #subtitle-of-course {
   color: rgb(197, 130, 6);
   padding-left: 1135px;
   transform: translateY(-400px);
+  font-size: 22px;
 }
 
 .author-and-voiceover {
@@ -90,14 +94,15 @@ body {
 }
 
 #second-image-bruegel img {
-  height: 500px;
-  padding-left: 620px;
+  height: 300px;
+  padding-left: 900px;
   transform: translateY(-450px);
 }
 
 .information {
   color: rgb(197, 130, 6);
-  font-size: 25px;
+  font-size: 22px;
+  padding-top: 30px;
 }
 
 #basic-info {
@@ -106,17 +111,18 @@ body {
 }
 
 #program-of-course {
-  padding-left: 1100px;
-  transform: translateY(-50px);
+  padding-left: 1160px;
+  transform: translateY(-150px);
 }
 
 #faq {
-  padding-left: 1400px;
+  padding-left: 1500px;
+  transform: translateY(-100px);
 }
 
 #third-image-bruegel img {
-  height: 400px;
-  padding-left: 1100px;
+  height: 350px;
+  padding-left: 1200px;
   transform: translateY(-500px);
 }
 
@@ -125,7 +131,7 @@ body {
   font-size: 22px;
   text-decoration: none;
   padding-left: 800px;
-  transform: translateY(-800px);
+  transform: translateY(-700px);
 }
 
 a {
