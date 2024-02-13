@@ -1,21 +1,23 @@
 body {
   background-color: #111;
   color: rgb(193, 194, 197);
-  font-family: "Comic-Neue", sans-serif;
+  font-family: "Merienda", sans-serif;
   font-size: 16px;
 }
 
 .logo-container {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .logo-h1 {
   text-align: left;
+  font-size: 22px;
 }
 
 .logo-h2 {
   font-weight: 400;
+  font-size: 20px;
 }
 
 .top-page-area {
@@ -52,7 +54,8 @@ body {
 
 #main-navigation li {
   display: inline-block;
-  padding: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
@@ -73,11 +76,12 @@ body {
 
 .dulle-grit-container {
   text-align: right;
-  margin-right: 600px;
+  margin-right: 800px;
+  transform: translateY(-90px);
 }
 
 .dulle-grit-container img {
-  height: 600px;
+  height: 350px;
 }
 
 #second-image-container {
@@ -86,12 +90,12 @@ body {
 
 .second-image-container {
   text-align: left;
-  padding-left: 800px;
-  transform: translateY(-500px);
+  padding-left: 1000px;
+  transform: translateY(-300px);
 }
 
 .second-image-container img {
-  height: 600px;
+  height: 400px;
   display: inline-block;
 }
 
@@ -101,32 +105,32 @@ body {
 
 .course-name {
   color: rgb(184, 62, 25);
-  font-size: 30px;
-  transform: translateY(-450px);
+  font-size: 25px;
+  transform: translateY(-270px);
 }
 
 .first-course-p {
-  transform: translateY(-450px);
+  transform: translateY(-260px);
 }
 
 .third-image-container img {
-  height: 400px;
+  height: 300px;
 }
 
 #third-image-container {
-  padding-left: 1150px;
+  padding-left: 1200px;
   position: absolute;
-  transform: translateY(-800px);
+  transform: translateY(-450px);
 }
 
 #second-course {
-  padding-left: 1330px;
-  transform: translateY(-800px);
+  padding-left: 1400px;
+  transform: translateY(-500px);
 }
 
 #third-course {
   padding-left: 1500px;
-  transform: translateY(-550px);
+  transform: translateY(-400px);
 }
 
 footer {
@@ -159,7 +163,7 @@ footer {
 #about-me {
   text-align: center;
   transform: translateY(-140px);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #between-about-and-movies {
@@ -169,16 +173,16 @@ footer {
 
 #movies {
   text-align: center;
-  padding-right: 300px;
+  padding-right: 320px;
   transform: translateY(-40px);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #books-and-albums {
   text-align: right;
   padding-right: 1050px;
   transform: translateY(-85px);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #between-movies-and-terms {
