@@ -6,3 +6,21 @@ font-family: Caveat, cursive;
   font-weight: 400;
   font-style: normal;
 }
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 22px;
+  color: rgb(197, 130, 6);
+}
+
+button {
+  font-size: 20px;
+}

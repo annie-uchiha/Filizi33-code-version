@@ -200,22 +200,14 @@ footer {
   font-size: 20px;
 }
 
-#subscribe {
-  transform: translateX(1630px);
-}
-
-.subscribe-form {
-  display: inline-block;
+.flex-container {
+  display: flex;
+  flex-direction: column;
   transform: translateX(1500px);
+  width: 250px;
 }
 
-.subscribe-form input {
-  width: 200px;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-.subscribe-form button {
+.subscribe-form-button {
   padding: 10px;
   background-color: #807c7c;
   border: 1px solid black;
