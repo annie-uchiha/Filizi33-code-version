@@ -12,12 +12,12 @@ body {
 
 .logo-h1 {
   text-align: left;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .logo-h2 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .top-page-area {
@@ -39,13 +39,13 @@ body {
 
 #register-only {
   color: darkorange;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #main-navigation {
   color: rgb(193, 194, 197);
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #main-navigation ul {
@@ -55,7 +55,7 @@ body {
 #main-navigation li {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 22px;
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
@@ -80,7 +80,7 @@ body {
 .group-titles {
   text-align: center;
   color: darkorange;
-  font-size: 25px;
+  font-size: 30px;
   transform: translateY(-620px);
 }
 
@@ -92,9 +92,11 @@ body {
 #literature {
   padding-right: 20px;
   transform: translateY(-300px);
+  font-size: 30px;
 }
 
 #fine-arts {
   padding-right: 220px;
   transform: translateY(-150px);
+  font-size: 30px;
 }
