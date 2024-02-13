@@ -86,3 +86,28 @@ body {
   transform: translateX(600px);
   font-size: x-large;
 }
+
+.flex-container-movie-1 h1 {
+  transform: translateY(400px);
+}
+
+.flex-container-movie-1 img {
+  transform: translateX(420px);
+}
+
+.flex-container-movie-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+  transform: translateX(200px);
+  font-size: x-large;
+}
+
+.flex-container-movie-2 h1 {
+  transform: translateY(400px);
+}
+
+.flex-container-movie-2 img {
+  transform: translateX(230px);
+}
