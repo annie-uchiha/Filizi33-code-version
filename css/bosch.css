@@ -133,3 +133,20 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+#line-between {
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
+  transform: translateY(-1100px);
+}
+
+#fragments {
+  text-align: center;
+  transform: translateY(-1100px);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transform: translateY(-1000px);
+}
