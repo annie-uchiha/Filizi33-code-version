@@ -74,12 +74,12 @@ h2 {
 }
 
 p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 80px;
-    padding-left: 900px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-left: 900px;
 }
