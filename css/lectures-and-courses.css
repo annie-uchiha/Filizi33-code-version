@@ -59,6 +59,7 @@ body {
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
+  background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
 #main-navigation a {
