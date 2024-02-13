@@ -67,21 +67,21 @@ body {
 }
 
 #three-headed-bird img {
-  height: 750px;
+  height: 540px;
   transform: translateX(1050px);
 }
 
 #pearl-tail-feathers img {
-  height: 800px;
-  padding-left: 250px;
-  transform: translateY(-700px);
+  height: 600px;
+  padding-left: 550px;
+  transform: translateY(-620px);
 }
 
 .group-titles {
   text-align: center;
   color: darkorange;
-  font-size: 30px;
-  transform: translateY(-900px);
+  font-size: 25px;
+  transform: translateY(-620px);
 }
 
 #italian-and-northern {
