@@ -1,7 +1,7 @@
 body {
   background-color: #111;
   color: rgb(193, 194, 197);
-  font-family: "Merienda", sans-serif;
+  font-family: "Caveat", sans-serif;
   font-size: 16px;
 }
 
@@ -12,12 +12,12 @@ body {
 
 .logo-h1 {
   text-align: left;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .logo-h2 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .top-page-area {
@@ -39,13 +39,13 @@ body {
 
 #register-only {
   color: darkorange;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #main-navigation {
   color: rgb(193, 194, 197);
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #main-navigation ul {
@@ -55,7 +55,7 @@ body {
 #main-navigation li {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 22px;
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
@@ -72,6 +72,7 @@ body {
   padding-left: 920px;
   margin-top: 60px;
   font-weight: 400;
+  font-size: 22px;
 }
 
 .dulle-grit-container {
@@ -101,11 +102,12 @@ body {
 
 .first-course-information {
   color: darkorange;
+  font-size: 22px;
 }
 
 .course-name {
   color: rgb(184, 62, 25);
-  font-size: 25px;
+  font-size: 30px;
   transform: translateY(-270px);
 }
 
@@ -141,6 +143,7 @@ footer {
 .footer-logo-contact-info {
   display: inline-block;
   transform: translateX(300px);
+  font-size: 22px;
 }
 
 .footer-logo-contact-info img {
@@ -163,7 +166,7 @@ footer {
 #about-me {
   text-align: center;
   transform: translateY(-140px);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #between-about-and-movies {
@@ -175,14 +178,14 @@ footer {
   text-align: center;
   padding-right: 320px;
   transform: translateY(-40px);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #books-and-albums {
   text-align: right;
   padding-right: 1050px;
   transform: translateY(-85px);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #between-movies-and-terms {
@@ -193,7 +196,7 @@ footer {
   text-align: center;
   font-size: 10px;
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #subscribe {
