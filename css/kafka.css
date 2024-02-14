@@ -67,37 +67,33 @@ body {
   text-decoration: none;
 }
 
-#first-image-kafka img {
-  padding-left: 1400px;
-  height: 400px;
+.flex-container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #title-of-course {
   color: rgb(233, 81, 11);
-  padding-left: 1120px;
-  transform: translateY(-300px);
   font-size: 30px;
+  transform: translateX(90px);
 }
 
 #subtitle-of-course {
   color: rgb(197, 130, 6);
-  padding-left: 1135px;
-  transform: translateY(-300px);
   font-size: 25px;
+  transform: translateX(110px);
 }
 
 .author-and-voiceover {
   color: rgb(233, 81, 11);
-  text-align: center;
-  padding-right: 320px;
-  transform: translateY(-250px);
   font-size: 22px;
+  text-align: center;
+  transform: translateX(-20px);
 }
 
-#second-image-kafka img {
-  height: 400px;
-  padding-left: 800px;
-  transform: translateY(-450px);
+#kafka-second-img {
+  transform: translateX(-100px);
 }
 
 .information {
@@ -106,27 +102,22 @@ body {
 }
 
 #basic-info {
-  padding-left: 1200px;
-  transform: translateY(-190px);
   font-size: 25px;
+  transform: translateX(-80px);
 }
 
 #program-of-course {
-  padding-left: 1050px;
-  transform: translateY(-100px);
   font-size: 25px;
+  transform: translateY(100px);
 }
 
 #faq {
-  padding-left: 1400px;
-  transform: translateY(-80px);
   font-size: 25px;
+  transform: translateX(400px);
 }
 
-#third-image-kafka img {
-  height: 300px;
-  padding-left: 1200px;
-  transform: translateY(-500px);
+#kafka-third-img {
+  transform: translateY(50px);
 }
 
 .cost {
@@ -134,7 +125,7 @@ body {
   font-size: 25px;
   text-decoration: none;
   padding-left: 900px;
-  transform: translateY(-730px);
+  transform: translateY(-150px);
 }
 
 a {
