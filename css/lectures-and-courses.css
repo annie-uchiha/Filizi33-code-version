@@ -73,16 +73,16 @@ body {
 }
 
 #pearl-tail-feathers img {
-  height: 600px;
-  padding-left: 550px;
-  transform: translateY(-620px);
+  height: 400px;
+  padding-left: 850px;
+  transform: translateY(-400px);
 }
 
 .group-titles {
   text-align: center;
   color: darkorange;
   font-size: 30px;
-  transform: translateY(-620px);
+  transform: translateY(-420px);
 }
 
 #italian-and-northern {

@@ -68,22 +68,23 @@ body {
 }
 
 #first-image-bosch img {
-  height: 600px;
-  padding-left: 1100px;
-  transform: translateY(-220px);
+  height: 400px;
+ display: flex;
+ flex-direction: row;
+ transform: translateX(1400px);
 }
 
 #title-of-course {
   color: rgb(233, 81, 11);
   padding-left: 1159px;
-  transform: translateY(-500px);
+  transform: translateY(-300px);
   font-size: 30px;
 }
 
 #subtitle-of-course {
   color: rgb(197, 130, 6);
   padding-left: 1235px;
-  transform: translateY(-500px);
+  transform: translateY(-300px);
   font-size: 25px;
 }
 
@@ -91,14 +92,14 @@ body {
   color: rgb(233, 81, 11);
   text-align: center;
   padding-right: 120px;
-  transform: translateY(-450px);
+  transform: translateY(-250px);
   font-size: 22px;
 }
 
 #second-image-bosch img {
   height: 700px;
   padding-left: 900px;
-  transform: translateY(-600px);
+  transform: translateY(-400px);
 }
 
 .information {
@@ -108,25 +109,25 @@ body {
 
 #basic-info {
   padding-left: 1200px;
-  transform: translateY(-350px);
+  transform: translateY(-120px);
 }
 
 #program-of-course {
   padding-left: 1170px;
-  transform: translateY(-300px);
+  transform: translateY(-100px);
   font-size: 25px;
 }
 
 #faq {
   padding-left: 1500px;
-  transform: translateY(-200px);
+  transform: translateY(-50px);
   font-size: 25px;
 }
 
 #third-image-bosch img {
   height: 500px;
   padding-left: 1000px;
-  transform: translateY(-1050px);
+  transform: translateY(-830px);
 }
 
 a {
@@ -136,17 +137,17 @@ a {
 
 #line-between {
   box-shadow: 0 2px 4px rgb(180, 170, 170);
-  transform: translateY(-1100px);
+  transform: translateY(-950px);
 }
 
 #fragments {
   text-align: center;
-  transform: translateY(-1100px);
+  transform: translateY(-900px);
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  transform: translateY(-1000px);
+  transform: translateY(-800px);
 }
