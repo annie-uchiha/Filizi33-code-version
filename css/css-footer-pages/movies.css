@@ -83,7 +83,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 40px;
-  transform: translateX(600px);
+  transform: translateX(1000px);
   font-size: x-large;
 }
 
@@ -110,4 +110,21 @@ body {
 
 .flex-container-movie-2 img {
   transform: translateX(230px);
+}
+
+.flex-container-movie-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+  transform: translateX(1200px);
+  font-size: x-large;
+}
+
+.flex-container-movie-3 h1 {
+  transform: translateY(400px);
+}
+
+.flex-container-movie-3 img {
+  transform: translateX(250px);
 }
