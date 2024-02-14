@@ -67,38 +67,28 @@ body {
   text-decoration: none;
 }
 
-#first-image-bruegel img {
-  padding-top: 30px;
-  padding-left: 1300px;
-  height: 400px;
+.flex-container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #title-of-course {
   color: rgb(233, 81, 11);
-  padding-left: 1100px;
-  transform: translateY(-400px);
-  font-size: 25px;
+  font-size: 30px;
+  transform: translateX(120px);
 }
 
 #subtitle-of-course {
   color: rgb(197, 130, 6);
-  padding-left: 1135px;
-  transform: translateY(-400px);
-  font-size: 22px;
+  font-size: 25px;
+  transform: translateX(170px);
 }
 
 .author-and-voiceover {
   color: rgb(233, 81, 11);
-  text-align: center;
-  padding-right: 320px;
-  transform: translateY(-350px);
   font-size: 22px;
-}
-
-#second-image-bruegel img {
-  height: 300px;
-  padding-left: 900px;
-  transform: translateY(-450px);
+  transform: translateY(100px);
 }
 
 .information {
@@ -107,35 +97,21 @@ body {
   padding-top: 30px;
 }
 
-#basic-info {
-  padding-left: 1200px;
-  transform: translateY(-230px);
-}
-
 #program-of-course {
-  padding-left: 1160px;
-  transform: translateY(-150px);
   font-size: 25px;
+  transform: translateX(-100px);
 }
 
 #faq {
-  padding-left: 1500px;
-  transform: translateY(-100px);
   font-size: 25px;
-}
-
-#third-image-bruegel img {
-  height: 350px;
-  padding-left: 1200px;
-  transform: translateY(-500px);
 }
 
 .cost {
   color: red;
   font-size: 25px;
   text-decoration: none;
-  padding-left: 800px;
-  transform: translateY(-700px);
+  padding-left: 900px;
+  transform: translateY(-100px);
 }
 
 a {
