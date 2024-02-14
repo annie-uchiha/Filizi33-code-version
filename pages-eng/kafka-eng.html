@@ -58,33 +58,87 @@
         </div>
     </header>
     <main>
-        <section id="first-image-kafka">
-            <img src="../images/franz-kafka/1.png" />
+        <section class="flex-container-one">
+            <div>
+                <h1 id="title-of-course">Franz Kafka</h1>
+                <h2 id="subtitle-of-course">online course</h2>
+                <p class="author-and-voiceover">author and lecturer: Associate Professor Liza Boeva PhD</p>
+                <p class="author-and-voiceover">illustrative literary works read by Itzhak Fintzi</p>
+            </div>
+            <img src="../images/franz-kafka/1.png" alt="kafka-drawing-1" width="300px" />
         </section>
-        <section>
-            <h1 id="title-of-course">Franz Kafka</h1>
-            <h2 id="subtitle-of-course">online course</h2>
-            <p class="author-and-voiceover">
-                author and lecturer: Associate Professor Liza Boeva PhD
-            </p>
-            <p class="author-and-voiceover">voiceover Itzko Fintzi</p>
-            <p class="information" id="basic-info">Information</p>
-            <p class="information" id="program-of-course">Course program</p>
+        <section class="flex-container-one">
+            <img src="../images/franz-kafka/2.png" alt="kafka-drawing-2" height="300px" id="kafka-second-img" />
+            <div>
+                <p class="information" id="basic-info">Information</p>
+                <p class="information" id="program-of-course">Program of the course</p>
+            </div>
+        </section>
+        <section class="flex-container-one">
             <p class="information" id="faq">FAQ</p>
-        </section>
-        <section id="second-image-kafka">
-            <img src="../images/franz-kafka/2.png" />
-        </section>
-        <section id="third-image-kafka">
-            <img src="../images/franz-kafka/3.png" />
+            <img src="../images/franz-kafka/3.png" alt="kafka-drawing-3" width="500px" id="kafka-third-img" />
         </section>
         <section class="cost">
             <p>Cost: 200 BGN</p>
-            <p><a href="">Apply</a></p>
+            <p><a href="">Enroll now</a></p>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <footer>
+            <div class="footer-logo-contact-info">
+                <img src="../images/logo.png" id="logo-footer" class="footer-logo-contact-info" />
+                <section class="footer-logo-contact-info">
+                    <p class="contact-info">filizi33@yahoo.com</p>
+                    <p class="contact-info">+359879526036</p>
+                </section>
+                <ul id="social-media-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/filizi33/?locale=bg_BG"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/filizi33/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCVJI0jRbQr09bmYe_UKoA9A"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <section id="about-me">
+                <a href="">About us</a>
+            </section>
+            <hr width="500px" id="between-about-and-movies" />
+            <div class="movies-books-albums-flex">
+                <section>
+                    <a href="">Movies</a>
+                </section>
+
+                <section>
+                    <a href="">Books and albums</a>
+                </section>
+            </div>
+            <hr width="500px" id="between-movies-and-terms" />
+            <section class="terms-and-conditions">
+                <a href="">Terms author and conditions</a>
+            </section>
+
+            <p id="subscribe" class="flex-container">Subscribe to our mailing list</p>
+            <form action="" method="post" class="flex-container">
+                <label for="user" class="subscribe-form"></label>
+                <input type="text" name="user" id="user" placeholder="Име" />
+                <label for="email" class="subscribe-form"></label>
+                <input type="password" name="email" placeholder="email" />
+                <button id="subscribe-form-button" type="submit">Subscribe</button>
+            </form>
+
+            <hr width="420px" id="all-rights-reserved" />
+            <p id="right-reserved-text">
+                &copy; "Filizi 33" Ltd. all rights reserved
+            </p>
+        </footer>
+    </footer>
 </body>
 
 </html>
