@@ -67,27 +67,25 @@ body {
   text-decoration: none;
 }
 
-#three-headed-bird img {
+#three-headed-bird {
   height: 540px;
-  transform: translateX(1050px);
+  transform: translateX(1100px);
 }
 
-#pearl-tail-feathers img {
+#pearl-tail-feathers {
   height: 400px;
-  padding-left: 850px;
-  transform: translateY(-400px);
 }
 
 .group-titles {
   text-align: center;
   color: darkorange;
   font-size: 30px;
-  transform: translateY(-420px);
 }
 
 #italian-and-northern {
   padding-right: 400px;
   transform: translateY(-500px);
+  font-size: 30px;
 }
 
 #literature {
