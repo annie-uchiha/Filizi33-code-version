@@ -69,9 +69,9 @@ body {
 
 #first-image-bosch img {
   height: 400px;
- display: flex;
- flex-direction: row;
- transform: translateX(1400px);
+  display: flex;
+  flex-direction: row;
+  transform: translateX(1400px);
 }
 
 #title-of-course {
@@ -96,7 +96,7 @@ body {
   font-size: 22px;
 }
 
-#second-image-bosch img {
+#second-image-bosch {
   height: 700px;
   padding-left: 900px;
   transform: translateY(-400px);
@@ -124,7 +124,7 @@ body {
   font-size: 25px;
 }
 
-#third-image-bosch img {
+#third-image-bosch {
   height: 500px;
   padding-left: 1000px;
   transform: translateY(-830px);
@@ -240,7 +240,7 @@ p {
   font-size: 20px;
 }
 
-#right-reserved-text{
+#right-reserved-text {
   padding-bottom: 20px;
   margin: 0;
 }
