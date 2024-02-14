@@ -142,3 +142,96 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+footer {
+  background-color: #1b1919;
+  background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
+}
+
+.footer-logo-contact-info {
+  display: inline-block;
+  transform: translateX(300px);
+  font-size: 22px;
+}
+
+.footer-logo-contact-info img {
+  width: 100px;
+  height: 100px;
+  padding-right: 15px;
+  padding-top: 19px;
+}
+
+#social-media-buttons {
+  transform: translateX(385px);
+}
+
+#social-media-buttons li {
+  display: inline-block;
+  color: #474343;
+  font-size: 30px;
+}
+
+#about-me {
+  text-align: center;
+  transform: translateY(-140px);
+  font-size: 25px;
+}
+
+#between-about-and-movies {
+  transform: translateY(-110px);
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
+}
+
+.movies-books-albums-flex {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transform: translateY(-50px);
+  padding-left: 930px;
+  padding-right: 930px;
+}
+
+#between-movies-and-terms {
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
+}
+
+.terms-and-conditions {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(1500px);
+  width: 250px;
+}
+
+.subscribe-form-button {
+  padding: 10px;
+  background-color: #807c7c;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#all-rights-reserved {
+  transform: translateX(-1100px);
+  box-shadow: 0 2px 4px rgb(180, 170, 170);
+}
+
+p {
+  font-size: 20px;
+}
+
+#right-reserved-text {
+  padding-bottom: 20px;
+  margin: 0;
+}

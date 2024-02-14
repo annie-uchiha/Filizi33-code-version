@@ -171,22 +171,18 @@ footer {
 }
 
 #between-about-and-movies {
-  transform: translateY(-100px);
+  transform: translateY(-110px);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
-#movies {
-  text-align: center;
-  padding-right: 320px;
-  transform: translateY(-40px);
+.movies-books-albums-flex {
   font-size: 25px;
-}
-
-#books-and-albums {
-  text-align: right;
-  padding-right: 1050px;
-  transform: translateY(-85px);
-  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transform: translateY(-50px);
+  padding-left: 930px;
+  padding-right: 930px;
 }
 
 #between-movies-and-terms {
@@ -196,7 +192,7 @@ footer {
 .terms-and-conditions {
   text-align: center;
   font-size: 10px;
-  padding-top: 5px;
+  padding-top: 15px;
   font-size: 20px;
 }
 
@@ -222,4 +218,13 @@ a {
 #all-rights-reserved {
   transform: translateX(-1100px);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
+}
+
+p {
+  font-size: 20px;
+}
+
+#right-reserved-text{
+  padding-bottom: 20px;
+  margin: 0;
 }
