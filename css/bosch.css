@@ -149,7 +149,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  transform: translateY(-800px);
+  transform: translateY(-900px);
+  padding: 50px 270px 0 270px;
 }
 
 footer {
