@@ -70,8 +70,9 @@ body {
 }
 
 .flex-container-form {
-  padding: 20px;
-  font-size: 20px;
+  padding-top: 50px;
+  margin: 20px;
+  font-size: 22px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -80,6 +81,7 @@ body {
 footer {
   background-color: #1b1919;
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
+  transform: translateY(95px);
 }
 
 .footer-logo-contact-info {

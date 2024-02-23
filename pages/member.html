@@ -25,6 +25,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
     <header>
         <div class="logo-container">
@@ -57,14 +58,30 @@
         </div>
     </header>
     <main>
-<section class="flex-container-form">
-    <form action="../pages/save-profile.html" method="GET">
-        <div> <label for="name">Име</label>
-            <input type="text" name="name" id="name">
-            <button type="submit">Регистрация</button>
-        </div>
-        </form> 
-</section>
+        <section class="flex-container-form">
+            <form action="../pages/save-profile.html" method="GET" autocomplete="off">
+                <div>
+                    <label for="name">Име: </label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                    <label for="surname">Фамилия: </label>
+                    <input type="text" name="surname" id="surname" />
+                </div>
+                <div>
+                    <label for="email">e-mail: </label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <p>
+                    - Регистрацията е нужна само, ако решите да закупите курс/ лекция -
+                </p>
+                <div>
+                    <input type="checkbox" name="check" id="check" required />
+                    <label for="check">Съгласявам се с Общите условия за ползване</label>
+                </div>
+                <button type="submit">Регистрация</button>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="footer-logo-contact-info">
