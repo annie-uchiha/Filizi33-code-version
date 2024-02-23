@@ -30,6 +30,8 @@ body {
   padding: 10px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .member-area {
@@ -67,73 +69,12 @@ body {
   text-decoration: none;
 }
 
-.information-board {
-  color: darkorange;
-  text-align: left;
-  padding-left: 920px;
-  margin-top: 60px;
-  font-weight: 400;
-  font-size: 22px;
-}
-
-.dulle-grit-container {
-  text-align: right;
-  margin-right: 800px;
-  transform: translateY(-90px);
-}
-
-.dulle-grit-container img {
-  height: 350px;
-}
-
-#second-image-container {
-  display: inline-block;
-}
-
-.second-image-container {
-  text-align: left;
-  padding-left: 1000px;
-  transform: translateY(-300px);
-}
-
-.second-image-container img {
-  height: 400px;
-  display: inline-block;
-}
-
-.first-course-information {
-  color: darkorange;
-  font-size: 22px;
-}
-
-.course-name {
-  color: rgb(184, 62, 25);
-  font-size: 30px;
-  transform: translateY(-270px);
-}
-
-.first-course-p {
-  transform: translateY(-260px);
-}
-
-.third-image-container img {
-  height: 300px;
-}
-
-#third-image-container {
-  padding-left: 1200px;
-  position: absolute;
-  transform: translateY(-450px);
-}
-
-#second-course {
-  padding-left: 1400px;
-  transform: translateY(-500px);
-}
-
-#third-course {
-  padding-left: 1500px;
-  transform: translateY(-400px);
+.flex-container-form {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 footer {
