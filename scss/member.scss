@@ -23,6 +23,7 @@ body {
 
 .member-area {
   text-align: right;
+  margin-right: 10vw;
 
   a {
     text-decoration: none;
@@ -42,7 +43,8 @@ body {
   ul {
     list-style: none;
     li {
-      display: inline-block;
+      display: flex;
+      flex-direction: row;
       padding: 10px 20px;
       margin-right: 10px;
       border: none;

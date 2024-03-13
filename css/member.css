@@ -19,6 +19,7 @@ body {
 
 .member-area {
   text-align: right;
+  margin-right: 10vw;
 }
 .member-area a {
   text-decoration: none;
@@ -39,7 +40,8 @@ body {
   list-style: none;
 }
 #main-navigation ul li {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   padding: 10px 20px;
   margin-right: 10px;
   border: none;
