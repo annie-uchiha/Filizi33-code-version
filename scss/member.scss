@@ -1,0 +1,58 @@
+$primaryColor: darkorange;
+$bg-colorColor: #111;
+$textColor: rgb(193, 194, 197);
+
+body {
+  background-color: $bg-colorColor;
+  color: $textColor;
+  font-family: "Caveat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.logo-container {
+  margin-top: 30px;
+  margin-left: 15%;
+  display: flex;
+  font-size: 2rem;
+}
+
+.logo-h2 {
+  font-weight: 200;
+  width: 50vw;
+}
+
+.member-area {
+  text-align: right;
+
+  a {
+    text-decoration: none;
+    color: $textColor;
+  }
+}
+
+#register-only {
+  color: $primaryColor;
+  font-size: 1rem;
+}
+
+#main-navigation {
+  color: $textColor;
+  text-align: center;
+  font-size: 1.7rem;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 26px;
+      background-color: #474343;
+      background: linear-gradient(to top, #1b1919, rgb (52, 53, 54));
+      a {
+        color: $textColor;
+        text-decoration: none;
+      }
+    }
+  }
+}
