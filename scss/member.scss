@@ -2,11 +2,16 @@ $primaryColor: darkorange;
 $bg-colorColor: #111;
 $textColor: rgb(193, 194, 197);
 
+$direction: to top;
+$colors: #1b1919, rgb(52, 53, 54);
+
+/*Page styling*/
 body {
   background-color: $bg-colorColor;
   color: $textColor;
   font-family: "Caveat", sans-serif;
   font-size: 1.5rem;
+  min-width: fit-content;
 }
 
 .logo-container {
@@ -19,11 +24,12 @@ body {
 .logo-h2 {
   font-weight: 200;
   width: 50vw;
+  margin-left: 20px;
 }
 
 .member-area {
   text-align: right;
-  margin-right: 10vw;
+  margin-right: 5vw;
 
   a {
     text-decoration: none;
@@ -40,21 +46,51 @@ body {
   color: $textColor;
   text-align: center;
   font-size: 1.7rem;
+
   ul {
     list-style: none;
+    
     li {
-      display: flex;
-      flex-direction: row;
+      display: inline-block;
       padding: 10px 20px;
       margin-right: 10px;
+      margin-bottom: 10px;
       border: none;
       border-radius: 26px;
       background-color: #474343;
-      background: linear-gradient(to top, #1b1919, rgb (52, 53, 54));
+      background: linear-gradient($direction, $colors);
+
       a {
         color: $textColor;
         text-decoration: none;
       }
+    }
+  }
+}
+
+.flex-container-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20%;
+  font-size: 1.7rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 352px;
+  max-width: 725px;
+  background-color: #474343;
+  background: linear-gradient($direction, $colors);
+  border: none;
+  border-radius: 26px;
+
+  button {
+    font-size: 1.7rem;
+    margin-top: 20px;
+
+    a {
+      text-decoration: none;
+      color: $primaryColor;
     }
   }
 }
