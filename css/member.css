@@ -1,15 +1,18 @@
-/*Page styling*/
 body {
   background-color: #111;
   color: rgb(193, 194, 197);
   font-family: "Caveat", sans-serif;
   font-size: 1.5rem;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
   min-width: fit-content;
 }
 
 .logo-container {
   margin-top: 30px;
   margin-left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 2rem;
 }
@@ -17,6 +20,8 @@ body {
 .logo-h2 {
   font-weight: 200;
   margin-left: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -50,6 +55,8 @@ body {
   border: none;
   border-radius: 26px;
   background-color: #474343;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b1919), to(rgb(52, 53, 54)));
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 #main-navigation ul li a {
@@ -64,6 +71,8 @@ body {
   margin-bottom: 20px;
   min-width: 320px;
   background-color: #474343;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b1919), to(rgb(52, 53, 54)));
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
   border: none;
   border-radius: 26px;

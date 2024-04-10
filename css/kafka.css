@@ -59,6 +59,14 @@ body {
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1b1919),
+    to(rgb(52, 53, 54))
+  );
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
@@ -68,20 +76,31 @@ body {
 }
 
 .flex-container-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 #title-of-course {
   color: rgb(233, 81, 11);
   font-size: 30px;
+  -webkit-transform: translateX(90px);
+  -ms-transform: translateX(90px);
   transform: translateX(90px);
 }
 
 #subtitle-of-course {
   color: rgb(197, 130, 6);
   font-size: 25px;
+  -webkit-transform: translateX(110px);
+  -ms-transform: translateX(110px);
   transform: translateX(110px);
 }
 
@@ -89,10 +108,14 @@ body {
   color: rgb(233, 81, 11);
   font-size: 22px;
   text-align: center;
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
   transform: translateX(-20px);
 }
 
 #kafka-second-img {
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
   transform: translateX(-100px);
 }
 
@@ -103,20 +126,28 @@ body {
 
 #basic-info {
   font-size: 25px;
+  -webkit-transform: translateX(-80px);
+  -ms-transform: translateX(-80px);
   transform: translateX(-80px);
 }
 
 #program-of-course {
   font-size: 25px;
+  -webkit-transform: translateY(100px);
+  -ms-transform: translateY(100px);
   transform: translateY(100px);
 }
 
 #faq {
   font-size: 25px;
+  -webkit-transform: translateX(400px);
+  -ms-transform: translateX(400px);
   transform: translateX(400px);
 }
 
 #kafka-third-img {
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
   transform: translateY(50px);
 }
 
@@ -125,6 +156,8 @@ body {
   font-size: 25px;
   text-decoration: none;
   padding-left: 900px;
+  -webkit-transform: translateY(-150px);
+  -ms-transform: translateY(-150px);
   transform: translateY(-150px);
 }
 
@@ -135,11 +168,21 @@ a {
 
 footer {
   background-color: #1b1919;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1b1919),
+    to(rgb(52, 53, 54))
+  );
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
 .footer-logo-contact-info {
   display: inline-block;
+  -webkit-transform: translateX(300px);
+  -ms-transform: translateX(300px);
   transform: translateX(300px);
   font-size: 22px;
 }
@@ -152,6 +195,8 @@ footer {
 }
 
 #social-media-buttons {
+  -webkit-transform: translateX(385px);
+  -ms-transform: translateX(385px);
   transform: translateX(385px);
 }
 
@@ -163,26 +208,40 @@ footer {
 
 #about-me {
   text-align: center;
+  -webkit-transform: translateY(-140px);
+  -ms-transform: translateY(-140px);
   transform: translateY(-140px);
   font-size: 25px;
 }
 
 #between-about-and-movies {
+  -webkit-transform: translateY(-110px);
+  -ms-transform: translateY(-110px);
   transform: translateY(-110px);
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
 .movies-books-albums-flex {
   font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
   transform: translateY(-50px);
   padding-left: 930px;
   padding-right: 930px;
 }
 
 #between-movies-and-terms {
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
@@ -194,8 +253,15 @@ footer {
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transform: translateX(1500px);
+  -ms-transform: translateX(1500px);
   transform: translateX(1500px);
   width: 250px;
 }
@@ -213,7 +279,10 @@ a {
 }
 
 #all-rights-reserved {
+  -webkit-transform: translateX(-1100px);
+  -ms-transform: translateX(-1100px);
   transform: translateX(-1100px);
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
