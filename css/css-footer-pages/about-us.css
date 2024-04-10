@@ -59,6 +59,14 @@ body {
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1b1919),
+    to(rgb(52, 53, 54))
+  );
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
@@ -78,7 +86,12 @@ p {
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   padding-top: 80px;
   padding-left: 900px;
