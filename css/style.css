@@ -59,6 +59,14 @@ body {
   margin-right: 5px;
   border-radius: 26px;
   background-color: #474343;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1b1919),
+    to(rgb(52, 53, 54))
+  );
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
@@ -79,6 +87,8 @@ body {
 .dulle-grit-container {
   text-align: right;
   margin-right: 800px;
+  -webkit-transform: translateY(-90px);
+  -ms-transform: translateY(-90px);
   transform: translateY(-90px);
 }
 
@@ -93,6 +103,8 @@ body {
 .second-image-container {
   text-align: left;
   padding-left: 1000px;
+  -webkit-transform: translateY(-300px);
+  -ms-transform: translateY(-300px);
   transform: translateY(-300px);
 }
 
@@ -109,10 +121,14 @@ body {
 .course-name {
   color: rgb(184, 62, 25);
   font-size: 30px;
+  -webkit-transform: translateY(-270px);
+  -ms-transform: translateY(-270px);
   transform: translateY(-270px);
 }
 
 .first-course-p {
+  -webkit-transform: translateY(-260px);
+  -ms-transform: translateY(-260px);
   transform: translateY(-260px);
 }
 
@@ -123,26 +139,42 @@ body {
 #third-image-container {
   padding-left: 1200px;
   position: absolute;
+  -webkit-transform: translateY(-450px);
+  -ms-transform: translateY(-450px);
   transform: translateY(-450px);
 }
 
 #second-course {
   padding-left: 1400px;
+  -webkit-transform: translateY(-500px);
+  -ms-transform: translateY(-500px);
   transform: translateY(-500px);
 }
 
 #third-course {
   padding-left: 1500px;
+  -webkit-transform: translateY(-400px);
+  -ms-transform: translateY(-400px);
   transform: translateY(-400px);
 }
 
 footer {
   background-color: #1b1919;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1b1919),
+    to(rgb(52, 53, 54))
+  );
+  background: -o-linear-gradient(bottom, #1b1919, rgb(52, 53, 54));
   background: linear-gradient(to top, #1b1919, rgb(52, 53, 54));
 }
 
 .footer-logo-contact-info {
   display: inline-block;
+  -webkit-transform: translateX(300px);
+  -ms-transform: translateX(300px);
   transform: translateX(300px);
   font-size: 22px;
 }
@@ -155,6 +187,8 @@ footer {
 }
 
 #social-media-buttons {
+  -webkit-transform: translateX(385px);
+  -ms-transform: translateX(385px);
   transform: translateX(385px);
 }
 
@@ -166,26 +200,40 @@ footer {
 
 #about-me {
   text-align: center;
+  -webkit-transform: translateY(-140px);
+  -ms-transform: translateY(-140px);
   transform: translateY(-140px);
   font-size: 25px;
 }
 
 #between-about-and-movies {
+  -webkit-transform: translateY(-110px);
+  -ms-transform: translateY(-110px);
   transform: translateY(-110px);
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
 .movies-books-albums-flex {
   font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
   transform: translateY(-50px);
   padding-left: 930px;
   padding-right: 930px;
 }
 
 #between-movies-and-terms {
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
@@ -197,8 +245,15 @@ footer {
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transform: translateX(1500px);
+  -ms-transform: translateX(1500px);
   transform: translateX(1500px);
   width: 250px;
 }
@@ -216,7 +271,10 @@ a {
 }
 
 #all-rights-reserved {
+  -webkit-transform: translateX(-1100px);
+  -ms-transform: translateX(-1100px);
   transform: translateX(-1100px);
+  -webkit-box-shadow: 0 2px 4px rgb(180, 170, 170);
   box-shadow: 0 2px 4px rgb(180, 170, 170);
 }
 
