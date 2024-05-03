@@ -33,9 +33,7 @@
     <!-- Meta Tags Generated with https://metatags.io -->
     <title>Filizi 33 Home Page</title>
 
-    <link rel="stylesheet" href="../Filizi33-code-version/css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="../Filizi33-code-version/css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="../Filizi33-code-version/css/style.css" type="text/css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -49,6 +47,10 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script async src="./js/log-in-register.js"></script>
+    <link rel="stylesheet" href="../Filizi33-code-version/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="../Filizi33-code-version/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="../Filizi33-code-version/css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -65,9 +67,32 @@
         <section class="member-area">
             <a href="./pages-eng/home-page-eng.html">
                 <span class="material-symbols-outlined"> globe </span></a>
-            <a href="">
-                <span class="material-symbols-outlined"> language </span></a>
-            <a href="../Filizi33-code-version/pages/member.html" id="loginButton">Вход</a>
+            <a href="" id="loginButton">Вход</a>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="loginForm">
+                        <h2>Вход</h2>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Парола" required>
+                        <a href="#" id="forgotPassword">Забравена парола?</a>
+                        <button type="submit">Вход</button>
+                        <p>Нови ли сте в платформата? <a href="#" id="registerLink">Регистрирайте се</a></p>
+                    </form>
+                    <form id="registerForm" style="display: none;">
+                        <h2>Регистрация</h2>
+                        <input type="text" placeholder="Име" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Парола" required>
+                        <button type="submit" id="registerButton">Регистрация</button>
+                    </form>
+                    <p id="loginInstead">Ако вече имате регистрация, моля, <a href="#" id="loginInsteadLink">влезте в
+                            системата</a>.</p>
+                </div>
+            </div>
+            <div id="overlay"></div>
+
+
             <p id="register-only">
                 Регистрацията е нужна само, ако решите да закупите курс/ лекция
             </p>
@@ -87,6 +112,7 @@
         </div>
     </header>
     <main>
+
         <section class="information-board">
             <p>
                 Курсовете (документални филми-лекции) "Йеронимус Бош" и "Брьогел
