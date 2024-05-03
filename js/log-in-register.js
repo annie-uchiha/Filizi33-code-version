@@ -114,11 +114,3 @@ document
     event.preventDefault();
     switchToLoginForm();
   });
-
-document
-  .getElementById("registerButton")
-  .addEventListener("click", handleRegistration);
-
-if (localStorage.getItem("email")) {
-  window.location.href = "member-profile.html";
-}
