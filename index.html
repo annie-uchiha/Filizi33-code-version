@@ -73,8 +73,8 @@
                     <span class="close">&times;</span>
                     <form id="loginForm">
                         <h2>Вход</h2>
-                        <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Парола" required>
+                        <input type="email" id="loginEmail" placeholder="Email" required>
+                        <input type="password" id="loginPassword" placeholder="Парола" required>
                         <a href="#" id="forgotPassword">Забравена парола?</a>
                         <button type="submit">Вход</button>
                         <p>Нови ли сте в платформата? <a href="#" id="registerLink">Регистрирайте се</a></p>
@@ -82,8 +82,8 @@
                     <form id="registerForm" style="display: none;">
                         <h2>Регистрация</h2>
                         <input type="text" placeholder="Име" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Парола" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="password" id="password" placeholder="Парола" required>
                         <button type="submit" id="registerButton">Регистрация</button>
                     </form>
                     <p id="loginInstead">Ако вече имате регистрация, моля, <a href="#" id="loginInsteadLink">влезте в
@@ -91,7 +91,6 @@
                 </div>
             </div>
             <div id="overlay"></div>
-
 
             <p id="register-only">
                 Регистрацията е нужна само, ако решите да закупите курс/ лекция
