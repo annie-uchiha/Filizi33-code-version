@@ -79,13 +79,13 @@ function closeModal() {
 function switchToRegisterForm() {
   document.getElementById("loginForm").style.display = "none";
   document.getElementById("registerForm").style.display = "block";
-  document.getElementById("loginInstead").style.display = "block";
+  document.getElementById("loginInstead").style.display = "block"; // Show this paragraph
 }
 
 function switchToLoginForm() {
   document.getElementById("registerForm").style.display = "none";
   document.getElementById("loginForm").style.display = "block";
-  document.getElementById("loginInstead").style.display = "none";
+  document.getElementById("loginInstead").style.display = "none"; // Hide this paragraph
 }
 
 function handleRegistration(event) {

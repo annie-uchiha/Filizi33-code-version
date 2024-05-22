@@ -77,7 +77,9 @@
                         <input type="password" id="loginPassword" placeholder="Парола" required>
                         <a href="#" id="forgotPassword">Забравена парола?</a>
                         <button type="submit">Вход</button>
-                        <p>Нови ли сте в платформата? <a href="#" id="registerLink">Регистрирайте се</a></p>
+                        <div id="newToPlatform">
+                            <p>Нови ли сте в платформата? <a href="#" id="registerLink">Регистрирайте се</a></p>
+                        </div>
                     </form>
                     <form id="registerForm" style="display: none;">
                         <h2>Регистрация</h2>
@@ -86,8 +88,13 @@
                         <input type="password" id="password" placeholder="Парола" required>
                         <button type="submit" id="registerButton">Регистрация</button>
                     </form>
-                    <p id="loginInstead">Ако вече имате регистрация, моля, <a href="#" id="loginInsteadLink">влезте в
-                            системата</a>.</p>
+                    <div>
+                        <p id="loginInstead" style="display: none;">Ако вече имате регистрация, моля, <a href="#"
+                                id="loginInsteadLink">влезте
+                                в
+                                системата.</a></p>
+                    </div>
+
                 </div>
             </div>
             <div id="overlay"></div>
